@@ -9,25 +9,36 @@
     <script defer src="script.js"></script>
     </head>
     <body>
-
-    <style>
+<style>
         *{margin: 0; padding: 0;}
         .banner{position: relative; width: 100%; margin: 0 auto;}
         .banner img{width: 100%;}
-        .heading{color: white; position: absolute; top: 15%; font-family: sans-serif; padding-left: 2%;}
+        .heading{color: white; position: absolute; top: 15%; font-family: sans-serif;}
         </style>
 
    <div class="banner">
         <img src="_DSC0337.jpg" style="max-width:100%; height: auto ">
-        <h1 class="heading">LEA RÓZSA</h1>
+        <h1 align="center" class="heading">LEA RÓZSA</h1>
         </div>
 
-        <div class="container" onclick="myFunction(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
+<!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="#">About me</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Contact</a>
+  </div>
+
 </div>
 
+<!-- Use any element to open/show the overlay navigation menu -->
+
+<span onclick="openNav()">MENU</span>
 
 
     </body>
