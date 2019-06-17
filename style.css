@@ -1,11 +1,29 @@
+img#homeimage {
+    max-width: 100%;
+    height: auto;
+}
+
 h1{
-    letter-spacing: 15px;
+    letter-spacing: 12px;
     text-align: center;
     align-content: center;
     padding-left: 10px;
     font-size: 30px;
 }
-
+h2{
+    letter-spacing: 12px;
+    text-align: center;
+    align-content: center;
+    padding-left: 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+p{
+    align-items: center;
+    align-content: center;
+    margin-left: 3%;
+    margin-top: 2%;
+}
 span{
     display: inline-block;
   cursor: pointer;
@@ -14,7 +32,264 @@ span{
 color: white;
 }
 
+.span2{
+    color: black;
+    font-size: 20px;
+}
 
+p{
+    margin-top: 10%;
+    padding-left: 40%;
+    font-family: sans-serif;
+}
+
+div#aboutme{
+    display: flex;
+    margin-top: 15%;
+    justify-content: space-between;
+}
+
+h1#titleaboutme{
+    display: flex;
+    justify-content: flex-start;
+    font-family: sans-serif;
+}
+
+div#textaboutme{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    /*margin-right: 25%;*/
+    margin-left: 31.5%;
+}
+
+div#work{
+    display: flex;
+    margin-top: 8%;
+    justify-content: space-between;
+}
+h1#workexperience{
+    display: flex;
+    justify-content: flex-start;
+    font-family: sans-serif;
+}
+div#textaboutwork{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2%;
+    margin-right: 30%;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+div#education{
+    display: flex;
+    margin-top: 12%;
+    justify-content: space-between;
+}
+h1#educationtitle{
+    display: flex;
+    justify-content: flex-start;
+    font-family: sans-serif;
+}
+
+div#textabouteducation{
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 13%;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+div#languages{
+    display: flex;
+    margin-top: 12%;
+    justify-content: space-between;
+}
+
+h1#languagestitle{
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-start;
+    font-family: sans-serif;
+}
+div#textaboutlanguages{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3%;
+    margin-right: 40%;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+div#digitalskills{
+    display: flex;
+    margin-top: 12%;
+    justify-content: space-between;
+}
+h1#digitalskillstitle{
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-start;
+    font-family: sans-serif;
+}
+div#textaboutdigitalskills{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+    margin-right: 20%;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+
+div#basicweb{
+    display: flex;
+    margin-top: 12%;
+    justify-content: space-between;
+}
+
+h1#basicwebtitle{
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-start;
+    font-family: sans-serif;
+    margin-left: 40%;
+}
+
+div#basicwebtext {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+div#textaboutbasicweb{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3%;
+    margin-right: %;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 2%;
+    font-size:18px;
+}
+a#linkone{
+    margin-top: 5%;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 42%;
+    }
+
+div#basicanimation{
+    display: flex;
+    margin-top: 6%;
+    justify-content: space-between;
+}
+h1#basicanimationtitle{
+    margin-top:;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-left: 35%;
+}
+div#textbasicanimation{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin: 0
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    font-size:18px;
+
+}
+/*a#linktwo{
+    margin-top: 5%;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+a#linkthree{
+    margin-top: 10%;
+    margin-right: 28%;
+    font-family: sans-serif;
+}*/
+div#column{
+    margin-top: 3%;
+    margin-left: 38%;
+    font-family: sans-serif;
+}
+
+div#basiccontent{
+    display: flex;
+    margin-top: 7%;
+    justify-content: space-between;
+}
+h1#basicontenttitle{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-left: 35%;
+}
+div#column2{
+    margin-top: 3%;
+    margin-left: 44%;
+    font-family: sans-serif;
+}
+div#textbasiccontent{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-right: %;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    text-align:justify;
+    padding: 20px;
+    font-size:18px;
+
+}
+
+div#basicux{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+h1#basicuxtitle{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-left: 41%;
+}
+div#column3{
+    margin-top: 3%;
+    margin-left: 44%;
+    font-family: sans-serif;
+}
+div#textbasicux{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 3%;
+    margin-right: %;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 20px;
+    font-size:18px;
+}
+
+h2#contacttitle{
+    margin-top: 4%;
+}
+div#contact{
+    text-align: center;
+        margin-top: 5%;
+        font-family: sans-serif;
+        font-size: 20px;
+}
 
 /* The Overlay (background) */
 .overlay {
@@ -70,3 +345,339 @@ color: white;
     right: 35px;
   }
 }
+
+/*
+Media Queries
+*/
+@media only screen and (min-width:601px) and (max-width: 1280px) {
+
+    img#homeimage{
+        height: 700px;
+    }
+    div#aboutme {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    h1#titleaboutme{
+        margin-left: 30%;
+    }
+    div#textaboutme{
+        margin: 0;
+        text-align: justify;
+    }
+    div#work{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    h1#workexperience{
+        margin-left: 10%;
+    }
+    div#textaboutwork{
+        margin-right: 20%;
+    }
+    div#education{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    h1#educationtitle{
+        margin-left: 25%;
+    }
+    div#textabouteducation{
+        margin: 0;
+    }
+    div#languages{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    h1#languagestitle{
+        margin-left: 23%;
+    }
+    div#textaboutlanguages{
+        margin-right: 30%;
+    }
+    div#digitalskills{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    h1#digitalskillstitle{
+        margin-left: 15%;
+    }
+    div#textaboutdigitalskills{
+        margin-right: 13%;
+        text-align: center;
+    }
+    h1#basicwebtitle{
+        margin-left: 25%;
+    }
+    a#linkone{
+        align-content: center;
+    }
+    h1#basicanimationtitle{
+        margin-left: 12%;
+    }
+    div#column{
+        margin: 0;
+        text-align: center;
+    }
+    div#textbasicanimation{
+        text-align: jus
+    }
+    h1#basicontenttitle{
+        margin-left: 10%;
+    }
+    div#column2{
+        margin: 0;
+        text-align: center;
+    }
+    h1#basicuxtitle{
+        margin-left: 30%;
+    }
+    div#column3{
+        margin: 0;
+        text-align: center;
+    }
+
+    h2#contacttitle{
+        margin-top: 5%;
+    }
+    div#contact{
+        text-align: center;
+        margin-top: 8%;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media only screen and (min-width:375px)and (max-width: 600px) {
+
+    img#homeimage {
+        height: 700px;
+    }
+
+    div#aboutme {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    h1#titleaboutme{
+        margin-left: 30%;
+    }
+    div#textaboutme{
+        margin: 0;
+        text-align: justify;
+    }
+
+    div#work {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    h1#workexperience{
+        margin-left: 10%;
+    }
+    div#textaboutwork{
+        text-align: center;
+        margin-right: 20%;
+    }
+
+    div#education {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    h1#educationtitle{
+        margin-left: 25%;
+    }
+    div#textabouteducation{
+        margin: 0;
+    }
+
+     div#languages {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    h1#languagestitle{
+        margin-left: 25%;
+    }
+    div#textaboutlanguages{
+        margin-right: 30%;
+    }
+
+    div#digitalskills {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    h1#digitalskillstitle{
+        margin-left: 15%;
+    }
+    div#textaboutdigitalskills{
+        margin-right: 4%;
+    }
+    h1#basicwebtitle{
+        margin-left: 25%;
+    }
+    a#linkone{
+        margin-left: 30%;
+    }
+    h1#basicanimationtitle{
+        margin-left: 12%;
+    }
+    div#column{
+        text-align: center;
+        margin: 0;
+        margin-top: 8%;
+    }
+    h1#basicontenttitle{
+        margin-left: 15%;
+    }
+    div#column2{
+        margin: 0;
+        text-align: center;
+        margin-top: 8%;
+    }
+    h1#basicuxtitle{
+        margin-left: 30%;
+    }
+    div#column3{
+        margin: 0;
+        text-align: center;
+        margin-top: 8%;
+    }
+    h2#contacttitle{
+        margin-top: 8%;
+    }
+    div#contact{
+        text-align: center;
+        margin-top: 8%;
+        font-family: sans-serif;
+    }
+ }
+
+
+
+}
+@media all and (max-width:375px){
+    img#homeimage {
+        height: 700px;
+    }
+    .span2{
+    font-size: 15px;
+    }
+    h1#titleaboutme{
+        margin-top: 10%;
+
+    }
+    div#textaboutme{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    div#textaboutwork{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    h1#educationtitle{
+
+    }
+    div#textabouteducation{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    h1#languagestitle{
+
+    }
+    div#textaboutlanguages{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    h1#digitalskillstitle{
+
+    }
+    div#textaboutdigitalskills{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    h1#basicwebtitle{
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+    a#linkone{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    h1#basicanimationtitle{
+
+    }
+    div#column{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    div#textbasicanimation{
+        margin-top: 10%;
+    }
+    h1#basicontenttitle{
+
+    }
+    div#column2{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    h1#basicuxtitle{
+        margin-left: 15%;
+    }
+    div#column3{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    h2#contacttitle{
+        margin-top: 10%;
+    }
+    div#contact{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin-top: 10%;
+        font-family: sans-serif;
+    }
+ }
+
+
